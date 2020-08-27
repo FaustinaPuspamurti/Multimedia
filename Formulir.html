@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulir</title>
+</head>
+<body>
+	<h1 align="center"><b>Latihan Formulir</b></h1>
+	<div align="center">
+		<fieldset style="width: 500px">
+			<legend align="center">Input Data</legend>
+			<form>
+				<table border="0" cellspacing="2" cellpadding="6">
+					<tr>
+						<td rowspan="12"></td>
+						<td width="125px"><label for="name">Name</label></td>
+						<td>:</td>
+						<td><input type="text" placeholder="Masukan Username"></td>
+					</tr>
+					<tr>
+						<td><label for="Password">Password</label></td>
+						<td>:</td>
+						<td><input type="Password"></td>
+					</tr>
+					<tr>
+						<td><label for="tanggallahir">Tanggal Lahir</label></td>
+						<td>:</td>
+						<td><input type="date" value="mm/dd/yyyy"></td>
+					</tr>
+					<tr>
+						<td><label for="kelamin">Jenis Kelamin</label></td>
+						<td>:</td>
+						<td><input type="radio" name="kelamin" value="lakilaki">Laki-Laki
+							<input type="radio" name="kelamin" value="perempuan">Perempuan</td>
+					</tr>
+					<tr>
+						<td><label for="notelepon">No Telepon</label></td>
+						<td>:</td>
+						<td><input type="number" placeholder="Masukan No Telepon"></td>
+					</tr>
+					<tr>
+						<td><label for="Asal">Asal Kota</label></td>
+						<td>:</td>
+						<td><select>
+							<option value="Bandung">Bandung</option>
+							<option value="Purwokerto" selected="select">Purwokerto</option>
+							<option value="Depok">Depok</option>
+							<option value="Jakarta">Jakarta</option>
+							<option value="Semarang">Semarang</option>
+							<option value="Banjarnegara">Banjarnegara</option>
+							<option value="Cilacap">Cilacap</option>
+							<option value="Purbalingga">Purbalingga</option>
+						</select></td>
+					</tr>
+					<tr>
+						<td><label for="alamat">Alamat</label></td>
+						<td>:</td>
+						<td><textarea rows="8" cols="20" placeholder="Silahlan Isi Alamat Anda disini"></textarea></td>
+					</tr>
+					<tr>
+						<td><label for="hobi">Hobi</label></td>
+						<td>:</td>
+						<td><input type="checkbox" name="hobi" value="membacabuku">Membaca Buku
+							<input type="checkbox" name="hobi" value="menulis">Menulis
+							<input type="checkbox" name="hobi" value="berolahraga">Berolahraga</td>
+					</tr>
+					<tr>
+						<td><label for="makanan">Makanan Favorit</label></td>
+						<td>:</td>
+						<td><input type="text" list="makanan"></td>
+						<datalist id="makanan">
+							<option value="Mie Ayam"></option>
+							<option value="Ayam Geprek"></option>
+							<option value="Sate"></option>
+							<option value="Bakso"></option>
+							<option value="Pizza"></option>
+							<option value="Ayam Bakar"></option>
+						</datalist>
+					</tr>
+					<tr align="right">
+						<td></td>
+						<td></td>
+						<td><input type="submit" value="submit">
+							<input type="reset" value="reset"></td>
+					</tr>
+				</table>
+			</form>
+		</fieldset>
+		<button><a href="">Next Page</a></button>
+	</div>
+
+</body>
+</html>
